@@ -1,0 +1,185 @@
+/* nav bar  */
+.navbar-nav .nav-link {
+    color: rgb(10, 105, 248); 
+    transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    padding: 1rem 3.5rem;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: black;
+    
+  }
+
+  .navbar-toggler-icon {
+    font-size: 0.9rem; 
+  }
+
+ 
+
+  /* about-us  */
+  .about-us-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    align-items: center; 
+  }
+  
+  .about-us-text, .about-us-image {
+    flex: 1; 
+  }
+
+
+ /* text / styling */
+  .ubuntu-regular {
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+
+  .display-1{
+    text-align: center ;
+    margin-top: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    margin-left: 3rem;
+    font-size: 2.5rem;
+    color: rgb(10, 105, 248); 
+  }
+
+  .display--2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    margin-left: 3rem;
+  }
+
+  .about-us-image{
+    margin-top: 1rem;
+    margin-left: 7rem;
+  }
+
+  .second_heading{
+    text-align: center ;
+    margin-top: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 1000;
+    margin-left: 1rem;
+    font-size: 1.5rem;
+    color: rgb(10, 105, 248); 
+  }
+
+  .second_para{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    
+    
+  }
+
+  /* footer */
+  .footer-clean{
+    margin-top: 5rem;
+    
+  }
+
+  .footer_head{
+   color: aliceblue;
+  margin-left: 1.7rem;
+  }
+
+  .insiders{
+  color: aliceblue;
+  text-decoration: none;
+
+  }
+
+
+  .insiders_lead li{
+  color: aliceblue;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 20px;
+  }
+
+  .footerklas{
+    color: aliceblue;
+    background-color: rgb(10, 105, 248); 
+  }
+
+  .copyright{
+    text-align: center;
+  }
+
+
+  /* media queries */
+
+  /* navbar */
+  @media (min-width: 768px) {
+    .navbar-nav .nav-link {
+      padding: 1rem 4rem;
+      margin-left: 3rem;
+    }
+  }
+  @media (min-width: 768px) {
+  .imgsizeset{
+    width: 10rem;
+     height: 4rem;
+  }
+}
+
+
+  /* about us */
+@media (max-width: 768px) {
+    .about-us-container {
+      flex-direction: column; 
+      margin-top: 1rem;
+      
+    }
+  }
+
+ 
+
+  @media (max-width: 768px) {
+   .display-1{
+    text-align: center ;
+    margin-top: 1rem;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 7rem;
+    font-size: 2rem;
+  }
+  }
+
+  @media (max-width: 768px) {
+   .display--2{
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+    margin-right: 3rem;
+    
+  }
+  }
+
+  @media (max-width: 768px) {
+    .about-us-image{
+        margin-top: 1rem;
+        justify-self: center;
+        justify-content: center;
+        margin-left: 3px;
+       
+      }
+  }
+
+
+
+  @media (max-width: 768px) {
+    .second_para{
+        margin-left: 1rem;
+        margin-right: 1rem;
+        font-size: 1rem;
+        
+      }
+  }
