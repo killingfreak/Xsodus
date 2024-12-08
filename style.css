@@ -51,7 +51,7 @@
   }
 
   .home-text{
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
 
   /*services*/
@@ -79,7 +79,8 @@
   }
   .about-us-image1{
    margin-left: 1rem;
-
+   
+   border-radius: 10px;
   }
 
   .cardone{
@@ -229,7 +230,7 @@
 
   .display-1{
     text-align: center ;
-    margin-top: 1rem;
+    margin-top: 2px;
     font-family: "Ubuntu", sans-serif;
     font-weight: 800;
     font-style: normal;
@@ -360,14 +361,15 @@
     .about-us-container {
       flex-direction: column; 
       margin-top: 1rem;
-      
+      align-items: flex-start; 
     }
   }
 
   @media (max-width: 768px) {
     .about-us-text {
         align-self: center;
-        margin-left: 1.2rem;
+        margin-left: 16px;
+        margin-right: 16px;
     }
   }
 
@@ -409,24 +411,37 @@
     font-family: "Ubuntu", sans-serif;
     font-weight: 1000;
     font-style: normal;
-    margin-right: 3rem;
-    
+    margin-inline-start: 4px;    
   }
   }
 
   @media (max-width: 768px) {
     .about-us-image{
         margin-top: 1rem;
-        justify-self: center;
-        justify-content: center;
-        margin-left: 3px;
-       
+        justify-self: left;
+        justify-content: left;
+        margin-left: 1px;
+        margin-right: 1px;
       }
   }
 
   @media (max-width: 768px) {
+  .about-us-image1{
+    margin-left: 1px;
+    width: 100%;
+    height: 250px;
+   }
+  }
+
+  @media (max-width: 768px) {
+  .home-li a .h4format + p {
+    margin-inline-start: 4px;  
+  }
+}
+
+  @media (max-width: 768px) {
   .home-text{
-    margin-top: 3px;
+    margin-top: 17rem;
   }
 }
 
@@ -441,13 +456,15 @@
 
   @media (max-width: 768px) {
   .hero-text {
-    position: absolute;
     color: white; 
     text-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     filter: drop-shadow(2px 2px 0 black);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    font-size: small;
-    
+    font-size: 20px;
+    width: 22rem;
+    margin-top: 7rem;
+    position: absolute;
+        
   }
 }
 
@@ -455,7 +472,7 @@
   .hero-image{
     background-size: cover;
     background-position: center center;
-    height: 25rem;
+    height: 20rem;
     width: 100%;
     position: relative;
   }
@@ -498,3 +515,44 @@
     margin-left: 2px;
    }
   }
+
+ 
+
+
+ 
+
+
+
+.btn {
+	background-color: black; 
+	color: white;
+	border: none;
+	padding: 15px 30px;
+	cursor: pointer;
+	font-size: 16px;
+	border-radius: 20px;
+	transition: all 0.3s;
+  margin-left: 50%;
+  margin-right: 50%;
+  margin-top: 10px;
+	&:hover {
+		background-color: rgb(21, 165, 8);
+	}
+	
+	&.wiggle:hover {
+		animation: wiggle 0.5s;
+	}
+}
+
+@keyframes wiggle {
+	0%,
+	100% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(-5deg);
+	}
+	75% {
+		transform: rotate(5deg);
+	}
+}
