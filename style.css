@@ -448,7 +448,7 @@
 
   @media (max-width: 768px) {
   .home-text{
-    margin-top: 10rem;
+    margin-top: 7rem;
   }
 }
 
@@ -469,7 +469,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 20px;
     width: 22rem;
-    margin-top: 5rem;
+    margin-top: 4rem;
     position: absolute;
         
   }
