@@ -56,10 +56,8 @@
 
   /*services*/
   .services-image1{
-   height: 25rem;
-   width: 70rem;
-  margin-left: 100px;
-  margin-right: 50px;
+   height: 30rem;
+ width: 100%;
   }
 
   .service-text{
