@@ -287,6 +287,7 @@
     font-style: normal;
     color: black;
     text-decoration: none;
+    margin-left: 3rem;
   }
 
   .home-li{
@@ -435,13 +436,19 @@
 
   @media (max-width: 768px) {
   .home-li a .h4format + p {
-    margin-inline-start: 4px;  
+    margin-inline-start: 1px;  
+  }
+}
+
+@media (max-width: 768px) {
+  .home-ul {
+    margin-inline-start: 1px;  
   }
 }
 
   @media (max-width: 768px) {
   .home-text{
-    margin-top: 5rem;
+    margin-top: 10rem;
   }
 }
 
@@ -462,7 +469,7 @@
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
     font-size: 20px;
     width: 22rem;
-    margin-top: 3rem;
+    margin-top: 5rem;
     position: absolute;
         
   }
