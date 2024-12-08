@@ -436,13 +436,13 @@
 
   @media (max-width: 768px) {
   .home-li a .h4format + p {
-    margin-inline-start: 1px;  
+    margin-inline-start: 4px;  
   }
 }
 
 @media (max-width: 768px) {
   .home-ul {
-    margin-inline-start: 1px;  
+    margin-inline-start: 4px;  
   }
 }
 
