@@ -535,8 +535,8 @@ height: 250px;
 }
 
 @media (max-width: 768px) { 
-.uniadjust{
-  
+.btn.wiggle {
+margin-left: 39%;
 }
 }
 
@@ -555,8 +555,8 @@ font-size: 20px;
 font-family: "Ubuntu", sans-serif;
 font-weight: 1000;
 border-radius: 20px;
-transition: all 0.3s;
-margin-left: 40%;
+transition: all 0.5s;
+margin-left: 45%;
 margin-top: 60px;
 &:hover {
   background-color: rgb(21, 165, 8);
