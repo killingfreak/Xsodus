@@ -229,7 +229,7 @@
 
 .uniadjust{
   margin-top: 4rem;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 
@@ -410,7 +410,8 @@ margin-left: 10rem;
 @media (max-width: 768px) {
   .uniadjust{
     margin-right:1px;
-    
+    margin-top:1rem;
+    text-align: center;
   }
 }
 
