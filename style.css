@@ -412,6 +412,7 @@ margin-left: 10rem;
     margin-right:1px;
     margin-top:1rem;
     text-align: center;
+    flex-wrap: nowrap;
   }
 }
 
