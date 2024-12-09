@@ -576,8 +576,8 @@ margin-top: 60px;
   background-color: rgb(21, 165, 8);
 }
 
-&.wiggle:hover {
-  animation: wiggle 0.5s;
+&.wiggle {
+  animation: wiggle 0.5s ease-in-out infinite alternate;
 }
 }
 
