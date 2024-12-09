@@ -20,7 +20,7 @@ a { text-decoration: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/Xsodus/static/bg_green.jpg");
+    background-image: url("/static/bg_green.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
