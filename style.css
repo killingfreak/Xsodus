@@ -407,6 +407,12 @@ margin-left: 10rem;
 }
 
 
+@media (max-width: 768px) {
+  .uniadjust{
+    margin-right:1px;
+    
+  }
+}
 
 
 
