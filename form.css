@@ -20,7 +20,7 @@ a { text-decoration: none; }
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/static/bg_green.jpg");
+    background-image: url("static/bg_green.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -79,8 +79,8 @@ button {
     outline: none;
     border: none;
     border-radius: 20px;
-    background: linear-gradient(-30deg, #398a04, #2fe948 55%);
-    box-shadow: 2px 6px 16px rgb(115, 240, 104); 
+    background: linear-gradient(-30deg, #398a04, #08a31d 55%);
+    box-shadow: 2px 6px 16px rgb(10, 201, 96); 
     color: #FFFFFF;
     font-weight: 600;
     letter-spacing: 1px;
@@ -115,6 +115,10 @@ button {
         line-height: 20px;
     }
 
+    .close_btn{
+        margin-left: 1550px;
+    }
+
 @media screen and (max-width: 1080px) {
     .text-container { display: none;}
     .container { height: 90%; }
@@ -126,6 +130,12 @@ button {
 
 @media screen and (max-width: 500px) {
     .text { width: 300px; }
+}
+
+@media screen and (max-width: 500px) {
+.close_btn{
+    margin-left: 300px;
+}
 }
 
 @media screen and (max-width: 420px) {
