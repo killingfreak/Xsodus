@@ -464,12 +464,7 @@ margin-left: 10rem;
   }
 }
 
-@media (max-width: 768px) { 
-.qr{
-  margin-left: 2px;
-  align-content: start;
-}
-}
+
 
 
 @media (max-width: 768px) {
@@ -507,8 +502,7 @@ margin-left: 10rem;
 @media (max-width: 768px) {
 .about-us-image1{
   margin-left: 1px;
-  margin-right: 1px;
-  width: 350px;
+  width: 300px;
   height: 200px;
  }
 }
@@ -597,6 +591,13 @@ height: 250px;
 }
 
 @media (max-width: 768px) { 
+.qr{
+  margin-left: 2px;
+  align-content: start;
+}
+}
+
+@media (max-width: 768px) { 
 .test{
   margin-left: 2px;
  }
@@ -671,3 +672,7 @@ transition: all 0.5s;
   transform: rotate(10deg);
 }
 }
+
+
+/* css for terms */
+
