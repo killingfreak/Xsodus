@@ -464,7 +464,12 @@ margin-left: 10rem;
   }
 }
 
-
+@media (max-width: 768px) { 
+.qr{
+  margin-left: 2px;
+  align-content: start;
+}
+}
 
 
 @media (max-width: 768px) {
